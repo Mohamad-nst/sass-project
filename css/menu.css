@@ -1,0 +1,81 @@
+div.menu {
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-color: #005555;
+  left: 10%;
+  top: 20px;
+  display: flex;
+  border-radius: 10px;
+  z-index: 1000;
+  box-shadow: 1px 1px 5px black; }
+  div.menu > div.left {
+    width: 20%;
+    height: 100%; }
+    div.menu > div.left > a {
+      text-transform: capitalize;
+      text-decoration: none;
+      line-height: 40px;
+      font-size: 30px;
+      text-align: left;
+      color: #6d9c9c;
+      transition: all 300ms linear; }
+      div.menu > div.left > a:hover {
+        color: white; }
+  div.menu > nav {
+    width: 80%;
+    height: 100%; }
+    div.menu > nav > ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      list-style: none; }
+      div.menu > nav > ul > li {
+        width: 11%;
+        height: 100%; }
+        div.menu > nav > ul > li > a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          text-transform: capitalize;
+          text-align: center;
+          line-height: 40px;
+          color: #6d9c9c;
+          transition: all 300ms linear; }
+          div.menu > nav > ul > li > a:hover {
+            color: white; }
+        div.menu > nav > ul > li:nth-of-type(1) > a {
+          color: white; }
+        div.menu > nav > ul > li:nth-of-type(3) {
+          position: relative; }
+          div.menu > nav > ul > li:nth-of-type(3):hover > ul {
+            display: block; }
+          div.menu > nav > ul > li:nth-of-type(3) > ul {
+            width: 160px;
+            height: 130px;
+            list-style: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            box-sizing: border-box;
+            background-color: white;
+            padding-top: 20px;
+            display: none;
+            padding-left: 20px; }
+            div.menu > nav > ul > li:nth-of-type(3) > ul > li {
+              width: 100%;
+              height: 30px; }
+              div.menu > nav > ul > li:nth-of-type(3) > ul > li > a {
+                text-align: left;
+                color: black;
+                line-height: 30px;
+                text-transform: capitalize;
+                text-decoration: none; }
+              div.menu > nav > ul > li:nth-of-type(3) > ul > li:nth-of-type(3) > a > i {
+                margin-left: 30px;
+                vertical-align: middle;
+                box-sizing: border-box; }

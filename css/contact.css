@@ -1,0 +1,107 @@
+div.contact {
+  width: 100%;
+  height: auto;
+  background-color: #EFEFEF;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  padding-top: 70px;
+  box-sizing: border-box; }
+  div.contact > div.itemcontact {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto; }
+    div.contact > div.itemcontact > div {
+      width: 33%; }
+      div.contact > div.itemcontact > div:nth-of-type(2) {
+        padding-left: 20px;
+        box-sizing: border-box; }
+        div.contact > div.itemcontact > div:nth-of-type(2) > div {
+          width: 100%; }
+          div.contact > div.itemcontact > div:nth-of-type(2) > div > h1 {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            color: #00204A;
+            font-size: 20px; }
+          div.contact > div.itemcontact > div:nth-of-type(2) > div:nth-of-type(2) {
+            display: flex; }
+            div.contact > div.itemcontact > div:nth-of-type(2) > div:nth-of-type(2) > div {
+              display: flex;
+              flex-direction: column;
+              width: 40%; }
+              div.contact > div.itemcontact > div:nth-of-type(2) > div:nth-of-type(2) > div > a {
+                display: block;
+                font-size: 18px;
+                margin-bottom: 15px;
+                color: #ABABAB;
+                text-transform: capitalize;
+                transition: all 300ms linear; }
+                div.contact > div.itemcontact > div:nth-of-type(2) > div:nth-of-type(2) > div > a:hover {
+                  text-decoration: none; }
+      div.contact > div.itemcontact > div:nth-of-type(3) {
+        padding-left: 50px;
+        box-sizing: border-box; }
+        div.contact > div.itemcontact > div:nth-of-type(3) > div.linksocial {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-start;
+          margin-top: 25px; }
+          div.contact > div.itemcontact > div:nth-of-type(3) > div.linksocial > i {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 15px;
+            background-color: gray;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 8px;
+            font-size: 20px;
+            box-shadow: 1px 1px 3px black;
+            color: gainsboro;
+            cursor: pointer;
+            transition: all 300ms linear;
+            cursor: pointer; }
+            div.contact > div.itemcontact > div:nth-of-type(3) > div.linksocial > i:hover {
+              transform: translateY(-5px);
+              background-color: #00204A;
+              color: white;
+              border: 0px solid #00204A;
+              box-shadow: none; }
+      div.contact > div.itemcontact > div > h1 {
+        width: 100%;
+        color: #00204A;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 20px; }
+      div.contact > div.itemcontact > div > h2 {
+        width: 100%;
+        font-size: 16px;
+        color: #ABABAB;
+        margin-bottom: 20px; }
+      div.contact > div.itemcontact > div > a {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #ABABAB;
+        text-transform: capitalize;
+        transition: all 300ms linear; }
+        div.contact > div.itemcontact > div > a:hover {
+          text-decoration: none; }
+  div.contact div.copy {
+    width: 100%;
+    height: 180px; }
+    div.contact div.copy > h1 {
+      line-height: 180px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #ABABAB;
+      font-size: 16px; }
+      div.contact div.copy > h1 > a {
+        color: #ABABAB;
+        text-transform: capitalize;
+        transition: all 300ms linear; }
+        div.contact div.copy > h1 > a:hover {
+          text-decoration: none;
+          color: black; }

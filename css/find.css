@@ -1,0 +1,113 @@
+div.find {
+  width: 100%;
+  height: auto;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  padding-top: 65px;
+  background-color: #F8F9FA;
+  box-sizing: border-box;
+  padding-bottom: 60px; }
+  div.find > h1 {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 25px; }
+  div.find > p {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #ABABAB; }
+  div.find > div.finditem {
+    margin-top: 60px;
+    width: 100%;
+    height: 515px;
+    position: relative; }
+    div.find > div.finditem > img.dots {
+      position: absolute;
+      z-index: 1000000;
+      right: -55px;
+      top: 345px;
+      width: 410px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: none; }
+    div.find > div.finditem > img {
+      width: 60%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1000000000;
+      box-shadow: 1px 1px 3px black; }
+    div.find > div.finditem div.findtext {
+      width: 40%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      div.find > div.finditem div.findtext > div {
+        width: 100%;
+        height: 32%;
+        display: flex;
+        flex-direction: row; }
+        div.find > div.finditem div.findtext > div > div.circle {
+          width: 75px;
+          height: 75px;
+          border-radius: 50%;
+          background-color: gainsboro;
+          box-sizing: border-box;
+          transition: all 300ms linear;
+          cursor: pointer; }
+          div.find > div.finditem div.findtext > div > div.circle:hover {
+            transform: translateY(0);
+            background-color: white;
+            color: #00204A;
+            border: 2px solid #00204A;
+            box-shadow: none; }
+          div.find > div.finditem div.findtext > div > div.circle > i {
+            width: 100%;
+            height: 100%;
+            display: block;
+            line-height: 75px;
+            text-align: center;
+            transition: all 300ms linear; }
+            div.find > div.finditem div.findtext > div > div.circle > i:hover {
+              color: #00204A; }
+        div.find > div.finditem div.findtext > div div.side {
+          width: 65%;
+          height: auto;
+          margin-left: 15px;
+          padding-top: 20px; }
+          div.find > div.finditem div.findtext > div div.side > h1 {
+            font-size: 20px;
+            text-transform: capitalize;
+            color: #00204A; }
+          div.find > div.finditem div.findtext > div div.side > p {
+            color: #ABABAB;
+            font-size: 18px;
+            margin-top: 10px; }
+  div.find > div.numbers {
+    width: 85%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between; }
+    div.find > div.numbers > div {
+      width: 15%;
+      height: 60px; }
+      div.find > div.numbers > div > h1 {
+        text-align: center;
+        font-size: 35px;
+        color: #00204A; }
+      div.find > div.numbers > div > h2 {
+        text-align: center;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #ABABAB; }

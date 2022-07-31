@@ -1,3 +1,4 @@
+
 @import "variable";
 @import "mixin";
 @import "menu";
@@ -9,3 +10,7 @@
 @import "part";
 @import "agents";
 @import "contact";
+*{
+  margin: 0;
+  padding: 0;
+}

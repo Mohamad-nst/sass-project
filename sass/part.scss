@@ -1,0 +1,33 @@
+div.part{
+  width: 100%;
+  height:265px ;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+  >h1{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #00204A;
+  }
+  >a{
+    width: 20%;
+    height: 55px;
+    display: block;
+    text-transform: capitalize;
+    color: white;
+    background-color: #005555;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 300ms linear;
+    &:hover{
+      box-shadow: 1px 1px 3px black;
+      transform: translateY(-5px);
+    }
+  }
+}

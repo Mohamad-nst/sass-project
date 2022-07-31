@@ -1,0 +1,166 @@
+@import "mixin";
+@import "variable";
+div.popular{
+  width: 100%;
+  height: 830px;
+  padding-top: 60px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  box-sizing: border-box;
+  >div.top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    >h1{
+      width: auto;
+      height: auto;
+      text-transform: capitalize;
+      font-size: 30px;
+      line-height: 55px;
+    }
+    >a{
+      display: inline-block;
+      width: auto;
+      height: 56px;
+      padding: 0 15px;
+      background-color: #005555;
+      font-size: 16px;
+      text-align: center;
+      text-transform: capitalize;
+      text-decoration: none;
+      color: white;
+      line-height: 55px;
+      border-radius: 50px;
+      box-shadow: 1px 1px 3px black;
+      transition: all 300ms linear;
+      &:hover{
+        box-shadow: 1px 1px 3px black;
+        transform: translateY(-5px);
+      }
+    }
+  }
+  div.items{
+    width: 100%;
+    margin-top: 60px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    >div{
+      width: 31%;
+      height: 100%;
+      box-shadow: 1px 1px 5px black;
+      >img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+      >div.text{
+        width: 100%;
+        height: 250px;
+        padding-left: 20px;
+        padding-top: 15px;
+        box-sizing: border-box;
+        >h1.one{
+          font-size: 20px;
+          color: #005555;
+          text-decoration:underline solid #005555  ;
+          margin-bottom: 15px;
+        }
+        >h1.two{
+          font-size: 14px;
+          text-transform: capitalize;
+          color: #ABABAB;
+          margin-bottom: 15px;
+        }
+        >h1.three{
+          font-size: 26px;
+          font-weight: bolder;
+          text-transform: capitalize;
+          margin-bottom: 15px;
+        }
+        div.i{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: flex-start;
+          >h1{
+            font-size: 16px;
+            text-transform: capitalize;
+            margin-right: 15px;
+            >i{
+              margin-right: 7px;
+            }
+          }
+        }
+        >a{
+          display: inline-block;
+          width: 120px;
+          height: 40px;
+          background-color: #005555;
+          text-transform: capitalize;
+          text-align: center;
+          font-size: 18px;
+          border-radius: 50px;
+          line-height: 40px;
+          color: white;
+          text-decoration: none;
+          margin-top: 25px;
+          transition: all 300ms linear;
+          &:hover{
+            box-shadow: 1px 1px 3px black;
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+  }
+  >div.buttons{
+    margin-top: 50px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    >div{
+      width: 70px;
+      height: 35px;
+      background-color: #F2F4F6;
+      border-radius: 50px;
+      box-shadow: 1px 1px 3px black;
+      transition:all 300ms linear ;
+      &:hover{
+        background-color: #00204A;
+        box-shadow: none;
+      }
+      >a{
+        @extend %tag;
+        line-height: 35px;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        transition: all 300ms linear;
+        &:hover{
+          color: white;
+        }
+      }
+      &:nth-of-type(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: none;
+        >div{
+          background-color:gray;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin: 0 5px;
+          &:nth-of-type(2){
+            background-color: black;
+          }
+        }
+      }
+    }
+  }
+}
+

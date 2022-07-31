@@ -1,0 +1,91 @@
+div.agents {
+  width: 100%;
+  height: auto;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  background-color: #F8F9FA;
+  padding-top: 70px;
+  box-sizing: border-box;
+  padding-bottom: 70px; }
+  div.agents > div.our {
+    width: 100%;
+    height: auto; }
+    div.agents > div.our > h1 {
+      width: 100%;
+      font-size: 30px;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00204A; }
+    div.agents > div.our > p {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+      color: #ABABAB; }
+  div.agents div.itemagents {
+    margin-top: 110px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; }
+    div.agents div.itemagents > div {
+      width: 30%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      background-color: white;
+      padding-top: 80px;
+      padding-left: 25px;
+      padding-right: 25px;
+      box-sizing: border-box;
+      padding-bottom: 50px;
+      box-shadow: 1px 1px 5px black; }
+      div.agents div.itemagents > div > img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: -45px; }
+      div.agents div.itemagents > div > h1 {
+        text-transform: capitalize;
+        font-size: 20px; }
+      div.agents div.itemagents > div > h2 {
+        margin-top: 7px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #ABABAB;
+        margin-bottom: 25px; }
+      div.agents div.itemagents > div > p {
+        text-align: center;
+        margin-bottom: 20px; }
+      div.agents div.itemagents > div div.social {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center; }
+        div.agents div.itemagents > div div.social > i {
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          background-color: #00204A;
+          text-align: center;
+          line-height: 35px;
+          font-size: 15px;
+          color: white;
+          margin: 0 5px;
+          box-shadow: 1px 1px 3px black;
+          cursor: pointer;
+          box-sizing: border-box;
+          transition: all 300ms linear;
+          cursor: pointer; }
+          div.agents div.itemagents > div div.social > i:hover {
+            transform: translateY(-5px);
+            background-color: white;
+            color: #00204A;
+            border: 1px solid #00204A;
+            box-shadow: none; }

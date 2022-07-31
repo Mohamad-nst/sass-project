@@ -1,0 +1,11 @@
+@mixin Thover($y,$bG,$c,$x,$r){
+  transition: all 300ms linear;
+  cursor: pointer;
+  &:hover{
+    transform: translateY($y);
+    background-color:  $bG;
+    color: $c;
+    border:$x solid $r ;
+    box-shadow: none;
+  }
+}

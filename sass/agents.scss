@@ -1,0 +1,97 @@
+@import "mixin";
+div.agents{
+  width: 100%;
+  height: auto;
+  padding-right: 7.5%;
+  padding-left: 7.5%;
+  background-color: #F8F9FA;
+  padding-top: 70px;
+  box-sizing: border-box;
+  padding-bottom: 70px;
+  >div.our{
+    width: 100%;
+    height: auto;
+    >h1{
+      width: 100%;
+      font-size: 30px;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom:30px ;
+      color: #00204A;
+    }
+    >p{
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+      color: #ABABAB;
+    }
+  }
+  div.itemagents{
+    margin-top: 110px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    >div{
+      width: 30%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      background-color: white;
+      padding-top: 80px;
+      padding-left: 25px;
+      padding-right: 25px;
+      box-sizing: border-box;
+      padding-bottom: 50px;
+      box-shadow: 1px 1px 5px black;
+      >img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 50%;
+        position: absolute;
+        top: -45px;
+      }
+      >h1{
+        text-transform: capitalize;
+        font-size: 20px;
+      }
+      >h2{
+        margin-top: 7px;
+        font-size: 14px;
+        text-transform: capitalize;
+        color:#ABABAB ;
+        margin-bottom: 25px;
+      }
+      >p{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      div.social{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        >i{
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          background-color: #00204A;
+          text-align: center;
+          line-height: 35px;
+          font-size: 15px;
+          color: white;
+          margin: 0 5px;
+          box-shadow: 1px 1px 3px black;
+          cursor: pointer;
+          box-sizing: border-box;
+          @include Thover(-5px,white,#00204A,1px,#00204A);
+        }
+      }
+    }
+  }
+}

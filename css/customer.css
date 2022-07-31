@@ -1,0 +1,88 @@
+div.customer {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  box-sizing: border-box;
+  padding-top: 70px; }
+  div.customer > div.tops {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%; }
+    div.customer > div.tops div.says {
+      font-size: 20px;
+      text-transform: capitalize; }
+    div.customer > div.tops div.next {
+      display: flex;
+      justify-content: flex-end; }
+      div.customer > div.tops div.next > a {
+        display: block;
+        width: 30%;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #F2F4F6;
+        text-transform: capitalize;
+        text-decoration: none;
+        line-height: 40px;
+        text-align: center;
+        color: black;
+        margin-left: 15px;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 3px black;
+        transition: all 300ms linear; }
+        div.customer > div.tops div.next > a:hover {
+          background-color: #00204A;
+          color: white;
+          box-shadow: none; }
+  div.customer > div.say {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px; }
+    div.customer > div.say > div {
+      width: 30%;
+      height: auto; }
+      div.customer > div.say > div > img {
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px; }
+      div.customer > div.say > div > div.star {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 7px; }
+        div.customer > div.say > div > div.star > i {
+          color: goldenrod;
+          margin-right: 5px; }
+      div.customer > div.say > div > h1 {
+        width: 100%;
+        color: #00204A;
+        font-size: 20px;
+        text-transform: capitalize;
+        margin-bottom: 20px; }
+      div.customer > div.say > div > p {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 15px; }
+      div.customer > div.say > div > h2 {
+        width: 100%;
+        text-transform: capitalize;
+        color: #ABABAB;
+        font-size: 18px; }
+  div.customer div.bottom {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center; }
+    div.customer div.bottom > div {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #ABABAB;
+      margin-right: 10px; }
+      div.customer div.bottom > div:nth-of-type(1) {
+        background-color: black; }

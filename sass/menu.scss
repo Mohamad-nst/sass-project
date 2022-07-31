@@ -1,0 +1,106 @@
+@import "variable";
+div.menu{
+  position: absolute;
+  width: 80%;
+  height: 80px;
+  padding: 20px 30px ;
+  box-sizing: border-box;
+  background-color: #005555;
+  left: 10%;
+  top: 20px;
+  display: flex;
+  border-radius:10px ;
+  z-index: 1000;
+  box-shadow: 1px 1px 5px black;
+  >div.left{
+    width: 20%;
+    height: 100%;
+    >a{
+      text-transform: capitalize;
+      text-decoration: none;
+      line-height: 40px;
+      font-size: 30px;
+      text-align: left;
+      color: rgb(109, 156, 156);
+      transition: all 300ms linear;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  >nav{
+    width: 80%;
+    height:100% ;
+    >ul{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      >li{
+      width: 11%;
+      height: 100%;
+        >a{
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          text-transform: capitalize;
+          text-align: center;
+          line-height: 40px;
+          color: rgb(109, 156, 156);
+          transition: all 300ms linear;
+          &:hover{
+            color: white;
+          }
+        }
+        &:nth-of-type(1){
+          >a{
+            color: white;
+          }
+        }
+        &:nth-of-type(3){
+          position: relative;
+          &:hover{
+            >ul{
+              display: block;
+            }
+          }
+          >ul{
+            width: 160px;
+            height: 130px;
+            list-style: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            box-sizing: border-box;
+            background-color: white;
+            padding-top: 20px;
+            display: none;
+            padding-left: 20px;
+            >li{
+              width: 100%;
+              height: 30px;
+              >a{
+                text-align: left;
+                color: black;
+                line-height: 30px;
+                text-transform: capitalize;
+                text-decoration: none;
+                }
+              &:nth-of-type(3){
+                >a{
+                  >i{
+                    margin-left: 30px;
+                    vertical-align: middle;
+                    box-sizing: border-box;
+                  }
+                }
+              }
+            }
+          }
+        }
+    }
+    }
+  }
+}
